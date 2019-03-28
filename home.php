@@ -9,7 +9,29 @@
 </head>
 <body>
 
+	<?php
+		include("include/nav.php");
+	?>
 
+	<?php
 
+		$dbconnect = mysqli_connect("localhost","root","","mazeclan");
+		mysqli_query($dbconnect,"SET NAMES utf8");
+  
+    $query = "SELECT * FROM product";
+    $result = mysqli_query($dbconnect,$query);
+   
+    while($row = mysqli_fetch_array($result)){
+	?>
+
+           <h2>
+            <?php echo $row["productname"]; ?>
+            <?php echo $row["price"]; ?>
+            <?php echo $row["size"]; ?>
+            </h2>
+
+        <?php
+        }
+        ?>
 </body>
 </html>

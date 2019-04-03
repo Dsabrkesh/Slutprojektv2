@@ -108,7 +108,7 @@
     text-align: center;
 }
 
-.account input[type=email], input[type=password] {
+.account input[type=email], input[type=password], input[type=text] {
     width: 520px;
     padding-left: 10px;
     height: 40px;
@@ -132,22 +132,13 @@
     cursor: pointer;
 }
 
-.account .left {
-    float: left;
+.account .center {
+    margin-left: 170px;
+    margin-top: 10px;
 }
-
-.account .left a {
+.account .center a {
     text-decoration: none;
     color: #d53339;
-}
-
-.account .right {
-    float: right;
-}
-
-.account .right a {
-    text-decoration: none;
-    color: #d53339;
-
+    text-align: center;
 }
 

@@ -24,11 +24,12 @@
     while($row = mysqli_fetch_array($result)){
 	?>
 
-           <h2>
+           <div class="product-window">
+           	<img src=<?php echo $row["product_image"]; ?>>
             <?php echo $row["productname"]; ?>
             <?php echo $row["price"]; ?>
             <?php echo $row["size"]; ?>
-            </h2>
+            </div>
 
         <?php
         }

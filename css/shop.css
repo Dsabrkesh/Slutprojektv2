@@ -102,10 +102,12 @@
    border-radius: 25px;
    padding:5px 10px;
    margin: 10px 5px;
-   color: white;
+   color: black;
    float: left;
    text-align: center;
-   background-color: rgba(255, 0, 0, 0.5);
+   margin-top: 65px;
+   left: 19%;
+   position: relative;
 }
 
 /* SHOP TITLE */
@@ -119,10 +121,59 @@
 
 /* PRODUCTS */
 .product-window img {
-	width: 10px;
-	height: 100px;
+	width: 330px;
+	height: 320px;
 }
 
 .product-window:last-child{
     margin-bottom:100px;
+}
+
+/* DROPDOWN */
+
+.dropbtn {
+  color: black;
+  border-radius: 5px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.product-dropdown {
+  position: relative;
+  left: 6%;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.product-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.product-dropdown:hover .dropbtn {
+  background-color: #f9f9f9;
 }

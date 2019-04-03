@@ -20,6 +20,14 @@
 		<h1>Shop</h1>
 	</div>
 
+	<div class="product-dropdown">
+  		<button class="dropbtn">FEATURED</button>
+  		<div class="dropdown-content">
+    		<a href="#">Price - Low to High</a>
+    		<a href="#">Price - High to Low</a>
+  		</div>
+	</div>
+
 	<?php
 
 		$dbconnect = mysqli_connect("localhost","root","","mazeclan");
@@ -32,10 +40,9 @@
 	?>
 
            <div class="product-window">
-           	<img src=<?php echo $row["product_image"]; ?>>
-            <?php echo $row["productname"]; ?>
+           	<img src=<?php echo $row["product_image"]; ?>><br>
+            <?php echo $row["productname"]; ?><br>
             <?php echo $row["price"]; ?>
-            <?php echo $row["size"]; ?>
             </div>
 
         <?php

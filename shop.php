@@ -42,7 +42,7 @@
            <div class="product-window">
            	<img src=<?php echo $row["product_image"]; ?>><br>
             <?php echo $row["productname"]; ?><br>
-            <?php echo $row["price"]; ?>
+            <strong><?php echo $row["price"]; ?></strong>
             </div>
 
         <?php

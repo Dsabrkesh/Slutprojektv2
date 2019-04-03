@@ -93,3 +93,60 @@
 .promo a:hover {
     cursor: pointer;
 }
+
+/*ACCOUNT*/
+
+.account {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+}
+
+.account h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+}
+
+.account input[type=email], input[type=password] {
+    width: 520px;
+    padding-left: 10px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.account input[type=submit] {
+    height: 42px;
+    width: 152px;
+    background-color: #d2232a;
+    margin-top: 10px;
+    margin-left: 190px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.account input[type=submit]:hover {
+    background-color: #a61c21;
+    cursor: pointer;
+}
+
+.account .left {
+    float: left;
+}
+
+.account .left a {
+    text-decoration: none;
+    color: #d53339;
+}
+
+.account .right {
+    float: right;
+}
+
+.account .right a {
+    text-decoration: none;
+    color: #d53339;
+
+}

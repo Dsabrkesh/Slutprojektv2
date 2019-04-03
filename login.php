@@ -13,7 +13,23 @@
 
 	<?php
 		include("include/nav.php");
+		include("include/footer.php");
 	?>
+
+	<div class="account">
+		<h1>Login</h1>
+		<div class="login">
+			<form method="" action="">
+				<lbal>Email</label><br>
+				<input type="email" name="email" placeholder="Email"><br>
+				<label>Password</label><br>
+				<input type="password" name="password" placeholder="Password"><br>
+				<input type="submit" name="submit" value="SIGN IN">
+				<p class="left"><a href="#">Create an account</a></p>
+				<p class="right"><a href="#">Forgot your password?</a></p>
+			</form>
+		</div>
+	</div>
 
 </body>
 </html>

@@ -16,5 +16,4 @@
 		<li><a href="#">Jersey</a></li>
 		<li><a href="#">Hoodies</a></li>
 		<li><a href="#">Shirts</a></li>
-		<li><a href="#">Accesories</a></li>
 	</ul>

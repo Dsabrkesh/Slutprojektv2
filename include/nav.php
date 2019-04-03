@@ -7,8 +7,8 @@
 		<li><a href="#">Shop</a></li>
 		<li><a href="#">Galery</a></li>
 		<li><a href="#">Contact</a></li>
-		<li><a href="#">Login</a></li>
-		<li><a href="#">Shopping Cart</a></li>
+			<li><a href="#"><i class="fas fa-user" style="font-size: 23px;"></i></a></li>
+			<li><a href="#"><i class="fa fa-shopping-cart" style="font-size:23px"></i></a></li>
 	</ul>
 </nav>
 	<ul class="undernav">

@@ -1,8 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: DecimaMonoPro;
-	text-transform: uppercase;
+	font-family: sans-serif;
 }
 
 /* NAV MENU */
@@ -14,12 +13,11 @@
     background-color: black;
     text-align:center;
 }
-
 .nav .logo {
 	float: left;
 	position: absolute;
 	left: 24%;
-	margin-top: 6px;
+	margin-top: 10px;
 }
 .nav li{
     display:inline;
@@ -30,6 +28,7 @@
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    text-transform: uppercase;
     letter-spacing: 2px;
     font-family: sans-serif;
     margin: 10px
@@ -54,6 +53,7 @@
     display:inline-block;
     padding:10px;
     color: #b8b8c0;
+    text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
     font-family: sans-serif;
@@ -81,6 +81,7 @@
     display:inline-block;
     padding:10px;
     color: white;
+    text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
     font-family: sans-serif;
@@ -107,6 +108,16 @@
    background-color: rgba(255, 0, 0, 0.5);
 }
 
+/* SHOP TITLE */
+
+.title {
+	margin-left: 45%;
+	margin-top: 30px;
+	font-size: 25px;
+
+}
+
+/* PRODUCTS */
 .product-window img {
 	width: 10px;
 	height: 100px;

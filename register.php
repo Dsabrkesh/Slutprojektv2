@@ -19,7 +19,7 @@
 	<div class="account">
 		<h1>Register</h1>
 		<div class="login">
-			<form method="" action="">
+			<form method="POST" action="register12.php">
 				<label>Name</label><br>
 				<input type="text" name="name" placeholder="Name"><br>
 				<label>Name</label><br>

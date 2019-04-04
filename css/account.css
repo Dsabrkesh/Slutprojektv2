@@ -113,10 +113,36 @@
     height: 42px;
     border-radius: 10px;
     margin-left: 46.5%;
-        margin-top: 100px;
+    margin-top: 50px;
 }
 
 .profile-logout input[type=submit]:hover {
     cursor: pointer;
     background-color: #a61c21;
+}
+
+.profile-account-details {
+    float: right;
+    margin-top: 70px;
+    margin-right: 550px;
+}
+
+.profile-account-details input[type=submit] {
+    width: 100px;
+    height: 30px;
+    background-color: #d2232a;
+    border:none;
+    color: white;
+    border-radius: 10px;
+}
+
+.profile-account-details input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #a61c21;
+}
+
+.profile-order-history {
+    float: left;
+    margin-top: 70px;
+    margin-left: 550px;
 }

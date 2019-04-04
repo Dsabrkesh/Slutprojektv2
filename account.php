@@ -46,10 +46,28 @@
         }
     }    
     
-    
+    	
     if($show_form){
         }
          ?>
+
+    <div class="profile-account-details">
+    	<h1>Account Details</h1>
+    	<p>Name: <strong>#</strong></p>
+    	<p>Lastname: <strong>#</strong></p>
+    	<p>Address: <strong>#</strong></p>
+    	<p>Email: <strong>#</strong></p>
+    	<br>
+    	<form action="">
+    		<input type="submit" name="submit" value="Edit Details">
+    	</form>
+    </div>
+
+    <div class="profile-order-history">
+    	<h1>Order History</h1>
+    	<p>You haven't placed any orders yet.</p>
+    </div>
+
 
 </body>
 </html>

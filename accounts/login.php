@@ -18,7 +18,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
         $row = mysqli_fetch_array($result);
         $_SESSION['name'] = $row['name'];
         $_SESSION['login'] = "LOGGEDIN";
-        header("Location: ../login.php");
+        header("Location: ../account.php");
     }
     else{
         

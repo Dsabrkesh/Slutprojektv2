@@ -16,6 +16,13 @@
 		include("include/footer.php");
 	?>
 
+	<ul class="undernav">
+		<li><a href="#">All Items</a></li>
+		<li><a href="#">Jersey</a></li>
+		<li><a href="#">Hoodies</a></li>
+		<li><a href="#">Shirts</a></li>
+	</ul>
+
 
 	<div class="title">
 		<h1>Shop</h1>

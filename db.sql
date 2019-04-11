@@ -1,4 +1,4 @@
-
+a
 CREATE TABLE accounts(
     id int(8) PRIMARY KEY AUTO_INCREMENT,
     name varchar(32),
@@ -36,6 +36,7 @@ CREATE TABLE products (
     price varchar(32),
     productimage varchar(128)
 );
+
 
 
 INSERT INTO `products` (`id`, `productname`, `price`, `productimage`) VALUES (NULL, 'MazeClan2019 Black Hoodie', '50$', 'images/products/shirt1.png');
